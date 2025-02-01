@@ -276,14 +276,10 @@ padding-top: 6px;
   outline: none;
 }
   
-.search-form__label:has(:focus-visible) {
-  outline: 1px solid #ffffff;
-  outline-offset: 2px;
-}
-
 .search-form__checkbox-list {
   display: flex;
   gap: 15px;
+  margin-bottom: 3px;
 }
 
 .search-form__pseudo-checkbox {
@@ -292,8 +288,7 @@ padding-top: 6px;
   justify-content: center; 
   width: 19px;
   height: 19px;
-  border: 1px solid #ffffff;
-  
+  border: 1px solid #ffffff; 
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
@@ -325,7 +320,8 @@ padding-top: 6px;
 }
 
 .button:active {
-  background: #545050; }
+  background: #545050; 
+}
 
 .button:focus {
   outline: none;
