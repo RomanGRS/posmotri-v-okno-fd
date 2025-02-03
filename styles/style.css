@@ -75,12 +75,10 @@ input {
 .result__video-container {
   position: relative;
   max-width: 711px;
-  min-height: 386px;
+  height: 386px;
 }
 
 .result__video {
-  display: flex;
-  position: absolute;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -149,6 +147,10 @@ input {
   justify-content: space-between;
   min-width: 390px;
   max-height: 502px;
+}
+
+.content__video-card:active {
+  background: #545050;
 }
 
 .content__video-card:hover {
@@ -253,7 +255,6 @@ input {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0;
   min-width: 225px;
   border-width: 1px 0px;
   border-style: solid;
